@@ -1,0 +1,1 @@
+Building Cursor Landing page just using HTML and CSS as instructed by the ChaiCode WebDev cohort. 
