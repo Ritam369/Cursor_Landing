@@ -7,8 +7,12 @@
 :root{
     --primary-background: #15120a;
     --primary-text: #EDECEC;
+    --font: cursor;
 }
-
+@font-face {
+    font-family: cursor;
+    src: url(./assets/fonts/CursorGothic_Regular-s.p.a361088d.ttf);
+}
 body{
     background-color: var(--primary-background);
     color: var(--primary-text);
@@ -52,7 +56,7 @@ nav{
 
 .link{
     color: var(--primary-text);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font);
     font-size: 9px;
     font-weight: 500;
     text-decoration: none;
@@ -103,7 +107,7 @@ nav div button{
 section p{
     width: 624px;
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font);
     line-height: 22px;
 }
 
@@ -190,4 +194,107 @@ section button:hover{
 .company img{
     height: 27px;
     width: 50px;
+}
+
+.agent-section{
+    display: flex;
+    height: 455px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 65px 72px;
+    padding: 13px;
+    background-color: #1a1813;
+    border-radius: 2px;
+}
+
+.agent-left{
+    width: 45%;
+    padding: 0px 30px 0px 2.5px;
+}
+
+.agent-left p{
+    width: auto;
+    font-size: 15px;
+    font-family: var(--font);
+}
+
+.agent-left a{
+    margin-top: 13px;
+    display: inline-block;
+    color: #e2400b;
+    font-size: 11px;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
+.agent-right{
+    position: relative;
+    display: inline-block;
+}
+
+.agent-right .agent-bg{
+    height: 430px;
+    width: 560px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    display: block;
+}
+
+.agent-overlay{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 85%;
+    max-height: 85%;
+    border-radius: 6px;
+}
+
+
+
+
+.eco-section{
+    display: flex;
+    height: 455px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 65px 72px;
+    padding: 13px;
+    background-color: #1a1813;
+    border-radius: 2px;
+}
+
+.eco-left{
+    width: 45%;
+    padding: 0px 30px 0px 2.5px;
+}
+
+.eco-left p{
+    width: auto;
+    font-size: 14px;
+    font-family: var(--font);
+}
+
+.eco-left a{
+    margin-top: 13px;
+    display: inline-block;
+    color: #e2400b;
+    font-size: 11px;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
+.eco-right{
+    position: relative;
+    display: inline-block;
+}
+
+.eco-bg{
+    height: 430px;
+    width: 560px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    display: block;
 }
