@@ -471,3 +471,59 @@ section button:hover{
     font-family: var(--font);
     margin-bottom: 10px;
 }
+
+
+
+.changelog{
+    margin-top: 120px;
+    margin-left: 75px;
+    margin-right: 70px;
+    font-family: var(--font);
+}
+
+.changelog .heading{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.changelog-cards{
+    display: flex;
+    gap: 5px;
+    width: auto;
+}
+
+.changelog-card{
+    background-color: #1a1813;
+    border-radius: 3px;
+    padding: 12px 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+
+.changelog-card .date{
+    color: #8b9191;
+    font-size: 9.5px;
+    margin-bottom: 10px;
+}
+
+.changelog-card .date span{
+    border: 1px solid #8b9191;
+    padding: 1px 5px;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+
+.changelog-card .about{
+    line-height: 1.5;
+}
+
+.changelog a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #e2400b;
+    font-family: var(--font);
+    margin-top: 15px;
+    display: inline-block;
+}
