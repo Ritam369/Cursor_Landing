@@ -560,3 +560,80 @@ section button:hover{
     height: auto;
     border-radius: 3px;
 }
+
+
+.highlights-wrapper{
+    background-color: #1a1813;
+    border-radius: 3px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-bottom: 90px;
+}
+.highlights{
+    display: flex;
+    margin-left: 75px;
+    margin-right: 70px;
+    /* margin-bottom: 90px; */
+    gap: 30px;
+    font-family: var(--font);
+}
+
+.highlights-sidebar{
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.highlights-sidebar p{
+    font-size: 11px;
+    color: #cfcccc;
+}
+
+.highlights-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.highlight-card{
+    background-color: #211f18;
+    width: 440px;
+    border-radius: 3px;
+    padding: 12px 12px;
+    padding-right: 20px;
+}
+
+.highlight-card:hover{
+    background-color: #27251d;
+    cursor: pointer;
+}
+
+.highlight-title{
+    font-size: 10px;
+    margin-bottom: 2px;
+    color: var(--primary-text);
+}
+
+.highlight-description{
+    font-size: 11px;
+    line-height: 1.5;
+    color: #8b9191;
+    margin-bottom: 12px;
+}
+
+.highlight-meta{
+    font-size: 10px;
+    color: #8b9191;
+}
+
+.highlights-link{
+    text-decoration: none;
+    font-size: 11px;
+    color: #e2400b;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.highlights-link:hover{
+    color: #ff4d1a;
+}
