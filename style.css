@@ -418,3 +418,56 @@ section button:hover{
 .author-section p span{
     color: #8b9191;
 }
+
+.frontier{
+    margin-top: 48px;
+    margin-left: 75px;
+    margin-right: 70px;
+}
+
+.frontier p{
+    font-family: var(--font);
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.frontier-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 7px;
+    
+}
+
+.frontier-card{
+    background-color: #1a1813;
+    border-radius: 3px;
+    padding: 12px 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.card-text p{
+    font-size: 10.7px;
+    line-height: 1.5;
+}
+
+.card-text p span{
+    color: #8b9191;
+}
+
+.frontier-card img{
+    height: 264px;
+    width: 100%;
+}
+
+.frontier-card a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #e2400b;
+    font-family: var(--font);
+    margin-bottom: 10px;
+}
