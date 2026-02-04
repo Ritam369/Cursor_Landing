@@ -637,3 +637,33 @@ section button:hover{
 .highlights-link:hover{
     color: #ff4d1a;
 }
+
+
+.download-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.download{
+    text-align: center;
+}
+
+.download h1{
+    font-family: var(--font);
+    font-weight: lighter;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.download button{
+    padding: 7px 14px;
+    font-size: 11px;
+    border: none;
+    border-radius: 20px;
+}
+
+.download button:hover{
+    background-color: #d7d7d7;
+    cursor: pointer;
+}
