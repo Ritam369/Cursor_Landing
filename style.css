@@ -526,4 +526,37 @@ section button:hover{
     font-family: var(--font);
     margin-top: 15px;
     display: inline-block;
+    margin-bottom: 85px;
+}
+
+.team-joining{
+    margin-left: 75px;
+    margin-right: 70px;
+    font-family: var(--font);
+    margin-bottom: 80px;
+}
+
+.team-joining p{
+    font-size: 23px;
+    line-height: 1.2;
+}
+
+.team-joining button{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding: 7px 14px;
+    font-size: 11px;
+    border: none;
+    border-radius: 20px;
+}
+
+.team-joining button:hover{
+    background-color: #d7d7d7;
+    cursor: pointer;
+}
+
+.team-joining img{
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
 }
