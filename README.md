@@ -4,7 +4,7 @@ Landing page for Cursor built with basic HTML and CSS. Built as part of the Chai
 
 ## Live Demo
 
-Check out the live version here: [https://cursorlanding.vercel.app/]((https://cursorlanding.vercel.app/))
+Check out the live version here: [https://cursorlanding.vercel.app/](https://cursorlanding.vercel.app/)
 
 ![Project Preview](assets/Project_Preview.png)
 
