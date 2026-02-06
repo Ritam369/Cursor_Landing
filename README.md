@@ -6,6 +6,8 @@ Landing page for Cursor built with basic HTML and CSS. Built as part of the Chai
 
 Check out the live version here: [https://cursorlanding.vercel.app/](https://cursorlanding.vercel.app/)
 
+> **Note:** For the closest visual match to the original Cursor site, set your browser zoom to 150%.
+
 ![Project Preview](assets/Project_Preview.png)
 
 ## Design System

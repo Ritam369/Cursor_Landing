@@ -104,25 +104,25 @@ nav div button{
     margin-left: 72px;
 }
     
-section p{
+.big-pictures p{
     width: 624px;
     font-size: 17px;
     font-family: var(--font);
     line-height: 22px;
 }
 
-section button{
+.big-pictures button{
     margin-top: 15px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     border: none;
     border-radius: 20px;
-    width: 160px;
+    width: 150px;
     font-size: 11px;
     margin-bottom: 43px;
 }
 
-section button:hover{
+.big-pictures button:hover{
     cursor: pointer;
     background-color: #d7d7d7;
 }
@@ -168,10 +168,11 @@ section button:hover{
 
 .trusted-devs p{
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     width: 100%;
     text-align: center;
     font-size: 9.7px;
+    font-family: var(--font);
 }
 
 .companies{
@@ -205,6 +206,11 @@ section button:hover{
     padding: 13px;
     background-color: #1a1813;
     border-radius: 2px;
+}
+
+.agent-section:hover{
+    background-color: #1c1a15;
+    cursor: pointer;
 }
 
 .agent-left{
@@ -283,6 +289,11 @@ section button:hover{
     border-radius: 2px;
 }
 
+.eco-section:hover{
+    background-color: #1c1a15;
+    cursor: pointer;
+}
+
 .eco-left{
     width: 45%;
     padding: 0px 30px 0px 2.5px;
@@ -327,6 +338,11 @@ section button:hover{
     padding: 13px;
     background-color: #1a1813;
     border-radius: 2px;
+}
+
+.tab-section:hover{
+    background-color: #1c1a15;
+    cursor: pointer;
 }
 
 .tab-left{
@@ -472,6 +488,10 @@ section button:hover{
     margin-bottom: 10px;
 }
 
+.frontier-card a:hover{
+    color: #c63a0c;
+}
+
 
 
 .changelog{
@@ -502,6 +522,11 @@ section button:hover{
     font-size: 11px;
 }
 
+.changelog-card:hover{
+    background-color: #1e1c17;
+    cursor: pointer;
+}
+
 .changelog-card .date{
     color: #8b9191;
     font-size: 9.5px;
@@ -527,6 +552,10 @@ section button:hover{
     margin-top: 15px;
     display: inline-block;
     margin-bottom: 85px;
+}
+
+.changelog a:hover{
+    color: #c63a0c;
 }
 
 .team-joining{
@@ -700,9 +729,9 @@ footer{
     font-size: 9px;
 }
 
-.footer-column a:hover{
+/* .footer-column a:hover{
     color: #ccc;
-}
+} */
 
 .footer-bottom{
     display: flex;
@@ -733,4 +762,9 @@ footer{
 .footer-settings button:hover{
     /* color: #ccc; */
     background-color: #292720;
+}
+
+
+.footer-copyright p span:hover{
+    color: var(--primary-text);
 }
